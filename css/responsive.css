@@ -48,7 +48,9 @@
 @media screen and (max-width: 768px){
 	/*------ header -----*/	
 	.for-sticky{ padding: 0; }
-	.logo-nav { margin-left: 0;}
+	.logo-nav { margin-left: 0;font-size: 18px;}
+	.wrap-about .w-content td,.wrap-about .head-about{font-size: 13px;}
+	#particles-js{display: none;}
 	.menu-button{margin-right: 15px;}
 	.ma-infinitypush-wrapper.ma-infinitypush-active-button.ma-infinitypush-button-right .ma-infinitypush-button{
 		left: -65px;
@@ -71,7 +73,7 @@
 	.grid-item {width: 50%;}
 
   /*------- about -------*/
-  .bg-about{min-height: 520px;}
+  .bg-about{min-height: 320px;}
   .wrap-about{
   	min-height: 520px;
   	padding-bottom: 10%;
@@ -79,7 +81,9 @@
     padding-right: 30px;
   }
   .wrap-about	.head-quote{padding-top: 10%;}
-
+	.card{
+		height: auto;
+	}
   .content-right{ margin-top: 20px; }
 
   .text-grey{margin-bottom: 45px;}

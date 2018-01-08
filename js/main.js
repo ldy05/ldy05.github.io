@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["My Name is M.Reza", "I'm a Web Designer", "Love Simplicity"],
+        strings: ["我叫李东阳", "是一名前端程序媛~"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -113,14 +113,14 @@
     });
 
     $('.owl-carousel2').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
+      autoPlay: 5000, //Set AutoPlay to 3 seconds
+
       items : 1,
       itemsDesktop : [1199,1],
       itemsDesktopSmall : [979,1],
       itemsTablet : [768,1],
       itemsMobile : [479,1],
-      autoPlay : false,
+     /* autoPlay : false,*/
 
       // CSS Styles
       baseClass : "owl-carousel",
@@ -194,5 +194,52 @@
       }
     });
   }
+  //particlesJS
+  particlesJS('particles-js', {
+    particles: {
+      color: '#edf6f5',
+      shape: 'circle', // "circle", "edge" or "triangle"
+      opacity: 1,
+      size: 4,
+      size_random: true,
+      nb: 150,
+      line_linked: {
+        enable_auto: true,
+        distance: 100,
+        color: '#edf6f5',
+        opacity: 1,
+        width: 1,
+        condensed_mode: {
+          enable: false,
+          rotateX: 600,
+          rotateY: 600
+        }
+      },
+      anim: {
+        enable: true,
+        speed: 1
+      }
+    },
+    interactivity: {
+      enable: true,
+      mouse: {
+        distance: 250
+      },
+      detect_on: 'canvas', // "canvas" or "window"
+      mode: 'grab',
+      line_linked: {
+        opacity: .5
+      },
+      events: {
+        onclick: {
+          enable: true,
+          mode: 'push', // "push" or "remove" (particles)
+          nb: 4
+        }
+      }
+    },
+    /* Retina Display Support */
+    retina_detect: true
+  });
 
 })(jQuery);

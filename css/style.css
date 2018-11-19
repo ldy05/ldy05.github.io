@@ -623,7 +623,7 @@ ul.portfolio-image li img {
   height: 100%;
   left: 0;
   top: 0;
-  -webkit-filter: grayscale(100%);
+/*  -webkit-filter: grayscale(100%);*/
   transition: filter, transform, 0.5s;
 }
 ul.portfolio-image li .decription-wrap {
@@ -739,6 +739,9 @@ ul.portfolio-image li .desc{
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: 1px solid rgba(129, 129, 129, 0.1);
+}
+.newcard{
+    height: 445px;
 }
 .card:before,
 .card:after {
